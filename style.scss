@@ -172,7 +172,7 @@ $darkGray: #9095a7;
 
     .box {
       min-width: 600px;
-      min-height: 200px;
+      min-height: 250px;
       margin: auto;
       background-color: $lightGray;
       padding: 1rem;
@@ -233,7 +233,8 @@ $darkGray: #9095a7;
       gap: 1.5rem;
 
       .logo {
-        filter: brightness(3);
+        filter: brightness(0) invert(1);
+        -webkit-filter: brightness(0) invert(1);
       }
 
       .copyright {
