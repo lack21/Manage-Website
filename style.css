@@ -137,7 +137,7 @@
 }
 #community .carousel .box {
   min-width: 600px;
-  min-height: 200px;
+  min-height: 250px;
   margin: auto;
   background-color: #fafafa;
   padding: 1rem;
@@ -188,7 +188,8 @@
   gap: 1.5rem;
 }
 .footer .bottom-section > div .logo {
-  filter: brightness(3);
+  filter: brightness(0) invert(1);
+  -webkit-filter: brightness(0) invert(1);
 }
 .footer .bottom-section > div .copyright {
   text-align: right;
